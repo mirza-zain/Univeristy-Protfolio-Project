@@ -1,115 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Coiny&display=swap');
+
 body {
-    background: linear-gradient(280deg, #51C6D6 0.52%, #66ECD7 100%);
+    background-color: #185c6b;
+    background-image: url(background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 15%;
 }
+
 header {
-    display: inline-flex;
+    position: absolute;
+    font-family: 'Coiny';
+    font-size: 14px;
+    top: 3px;
+    left: 15px;
 }
-.nav {
-    padding: 0px;
-    padding-top: 20px;
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.navbar {
+    position: absolute;
+    top: 9px;
+    left: 60%;
+}
+.navbar ul{
     list-style: none;
 }
-.nav li{
+
+.navbar li{
+    color: rgb(0, 0, 0);
+    font-family: 'Andika';
+    font-weight: bolder;
     display: inline-block;
-    font-weight: bold;
-    font-size: 20px;
-    padding-right: 26px;
+    font-size: 16px;
 }
-h1 a{
-    color: #392D2D;
-    list-style: none;
+.navbar a{
+    padding-left: 30px;
+}  
+.navbar li:hover{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
 }
-.nav a{
-    color: #392D2D;
-}
-.nav a:hover{
-    color: #7CFBFB;
-}
-h1 {
-    color: hsl(187, 10%, 16%);
-    font-size: 40px;
-    padding-right: 800px;
-    padding-left: 50px;
-}
-
-.page img{
-    width: 200px;
-    height: 400px;
-    padding-left: 600px;
-}
-.page {
-    padding-top: 65px;
-    display: flex;
-}
-.page h2{
-    font-size: 45px;
-    color: #252323;
-    padding-left: 50px;
-    padding-top: 50px;
-}
-.page p{
-    color: #252323;
-    font-size: 29px;
-    font-weight: bold;
+button {
     position: absolute;
-    padding-top: 120px;
-    padding-left: 50px;
-}
-.page .pa{
+    top: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 44%;
+    height: 50%;
+    left: 107%;
+    font-family: 'Andika';
+    font-weight: bold;
     color: white;
-    position: absolute;
-    padding-left: 710px;
-    font-size: 50px;
-    padding-top: 160px;
+    background-color: rgb(14, 12, 12);
 }
-
+button .contact{
+    padding: 0px;
+}
+button:hover {
+    transform: scale(1.1);
+    color: rgb(32, 32, 32);
+    background-color: aquamarine;
+}
+.head1 {
+    position: absolute;
+    font-family: 'Andika';
+    font-size: 35px;
+    font-weight: 900;
+    top: 15%;
+    left: 25%;
+    animation-name: headd;
+    animation-duration: 7s;
+    border: none;
+    border-radius: 12px;
+}
+@keyframes headd {
+    from {color: rgb(4, 64, 99);}
+    to {background-color: rgb(255, 255, 255);}
+}
+.himage {
+    position: absolute;
+    width: 45%;
+    left: 25%;
+    top: 28%;
+    image-rendering:optimizeQuality;
+}
 @media screen and (max-width: 600px) {
     body {
-        background: linear-gradient(10deg,  #51C6D6 50%, #66ECD7 100%);
-    }    
-    .nav {
-        padding: 10px;
-        padding-top: 10px;
-        list-style: none;
+        background-size: 400%;
+        background-repeat: no-repeat;
+        background-position-x: 40.5%;
     }
-    .nav li{
-        display: inline-block;
-        font-weight: bold;
-        font-size: 30px;
-        padding: 10px;
-        padding-left: 2px;
+    header {
+        font-size: 13px;
+        left: 20%;
+        top: 0%;
     }
-    h1 {
-        color: hsl(187, 10%, 16%);
-        font-size: 50px;
-        padding-right: 500px;
-        padding-left: 25px;
+    .navbar {
+        top: 10%;
+        left: 0%;
     }
-    
-    .page img{
-        padding-top: 50px;
-        width: 250px;
-        height: 400px;
-        padding-left: 550px;
+    .navbar li{
+        font-size: 16px;
     }
-    .page {
-        padding: 0px;
-        padding-top: 5px;
+    .navbar a{
+        padding-left: 12px;
+    } 
+    .head1 {
+        border-radius: 10px;
+        font-size: 26px;
+        top: 26%;
+        text-align: center;
+        left: auto;
     }
-    .page h2{
-        position: absolute;
-        font-size: 60px;
-        color: #252323;
-        padding-left: 20px;
-        padding-top: 100px;
+    button {
+        top: 10px;
+        border-radius: 9px;
+        font-size: 15px;
+        width: 40%;
+        height: 50%;
+        right: 10%;
+        left: 110%;
     }
-    .page p{
-        color: #252323;
-        font-size: 23px;
-        font-weight: bold;
-        position: absolute;
-        padding-top: 200px;
-        padding-left: 20px;
-    }
-       
 }

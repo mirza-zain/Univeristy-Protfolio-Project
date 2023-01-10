@@ -1,0 +1,236 @@
+header a:hover {
+    color: aqua;
+    transition: 1.2s;
+}
+p {
+    color: rgb(43, 44, 44);
+}
+.head2 {
+    position: absolute;
+    font-family: 'Andika';
+    font-weight: bolder;
+    font-size: 40px;
+    width: 30%;
+    text-align: justify;
+    top: 20%;
+    left: 12%;
+}
+.p1 {
+    color: black;
+    position: absolute;
+    font-family: 'Andika';
+    font-weight: bolder;
+    font-size: 20px;
+    top: 65%;
+    left: 12%;
+}
+.p2 {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    font-family: 'andika';
+    font-size: 22px;
+}
+.text {
+    position: absolute;
+    top: 30%;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    left: 65%;
+    font-size: 20px;
+    opacity: 50%;
+}
+.p3 {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    font-family: 'andika';
+    font-size: 22px;
+}
+.email {
+    position: absolute;
+    top: 50%;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    left: 65%;
+    font-size: 20px;
+    opacity: 50%;
+}
+.p4 {
+    position: absolute;
+    top: 58%;
+    left: 65%;
+    font-family: 'andika';
+    font-size: 22px;
+}
+.message {
+    position: absolute;
+    top: 69%;
+    width: 25%;
+    border: none;
+    border-radius: 5px;
+    left: 65%;
+    font-size: 20px;
+    opacity: 50%;
+}
+.sub {
+    position: absolute;
+    top: 85%;
+    width: 100px;
+    height: 50px;
+    left: 65%;
+}
+.line1 {
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    width: 25%;
+    height: 20%;
+}
+.line2 {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    width: 25%;
+    height: 20%;
+}
+.line3 {
+    position: absolute;
+    top: 64%;
+    left: 65%;
+    width: 25%;
+    height: 20%;
+}
+.icons {
+    list-style: none;
+}
+
+.gt a{
+    color: black;
+    position: absolute;
+    top: 86%;
+    left: 12%;
+    text-decoration: none;
+}
+.tw a{
+    color: black;
+    position: absolute;
+    top: 86%;
+    left: 15%;
+    width: 20%;
+    text-decoration: none;
+}
+.in a{
+    color: black;
+    position: absolute;
+    top: 86%;
+    left: 18%;
+    width: 20%;
+    text-decoration: none;
+}
+.fb a{
+    color: black;
+    position: absolute;
+    top: 86%;
+    left: 21%;
+    width: 20%;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-size: 400%;
+        background-position-x: 41%;
+        background-repeat: no-repeat;
+    }
+    .head2 {
+        font-size: 30px;
+        width: auto;
+        top: 20%;
+        left: auto;
+    }
+    .p1 {
+        font-size: 25px;
+        top: 38%;
+        left: 2%;
+    }
+    .p2 {
+        top: 55%;
+        left: 14%;
+        font-size: 22px;
+    }
+    .text {
+        top: 65%;
+        width: 40%;
+        left: 2%;
+        font-size: 20px;
+        opacity: 50%;
+    }
+    .p3 {
+        top: 55%;
+        left: 65%;
+        font-size: 22px;
+    }
+    .email {
+        top: 65%;
+        width: 40%;
+        left: 55%;
+        font-size: 20px;
+        opacity: 50%;
+    }
+    .p4 {
+        top: 70%;
+        left: 45%;
+        font-size: 22px;
+    }
+    .message {
+        top: 79%;
+        width: 65%;
+        left: 20%;
+        font-size: 20px;
+        opacity: 50%;
+    }
+    .sub {
+        top: 85%;
+        width: 100px;
+        height: 50px;
+        left: 65%;
+    }
+    .line1 {
+        top: 58%;
+        left: 3%;
+        width: 40%;
+        height: 20%;
+    }
+    .line2 {
+        top: 58%;
+        left: 55%;
+        width: 42%;
+        height: 20%;
+    }
+    .line3 {
+        top: 72.5%;
+        left: 21%;
+        width: 64%;
+        height: 20%;
+    }
+    .gt a{
+        top: 88%;
+        left: 10%;
+    }
+    .tw a{
+        top: 88%;
+        left: 20%;
+        width: 20%;
+        text-decoration: none;
+    }
+    .in a{
+        top: 88%;
+        left: 30%;
+    }
+    .fb a{
+        top: 88%;
+        left: 40%;
+    }
+}
