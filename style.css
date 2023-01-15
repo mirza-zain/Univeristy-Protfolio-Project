@@ -1,27 +1,25 @@
 body {
-    background-image: url('bgs.png');
+    background-image: url('bgg.png');
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #FECD7D;
 } 
 
-body::before {
-    background-position-y: 50%;
-    position: fixed;
-    width: 90%;
-    height: 90%;
-    z-index: -1;
-    filter: blur(2px);
-    transform: scale(1.3);
+#navbarNav,
+.navbar-brand {
+    background-color: #c2bdbd;
 }
- 
+
 nav a {
-    color: rgb(54, 51, 51);
+    color: rgb(49, 48, 48);
     text-decoration: none;
-    padding: 1.5em;
+    padding: 1.2em;
 }
   
 nav a:hover {
-    color: rgb(121, 119, 119);
-    background-color: #333;
+    color: rgb(2, 2, 2);
+    background-color: rgb(255, 215, 147);
+
 }
 @keyframes slideIn {
     from {
@@ -76,14 +74,19 @@ p {
     line-height: 1.5;
 }
 #portfolio h1{
-    color: #e3e3e3;
-    padding-top: 0%;
-    padding-bottom: 10%;
+    color: #2b2424;
+    padding-top: 18%;
+    padding-bottom: 5%;
+    text-align: center;
 } 
+#portfolio {
+    background-size: contain;
+    background-position-y: -13.6%;
+}
 #portfolio img {
     width: 100%;
     padding: 3em;
-    box-shadow: 2px 2px 5px #ccc;
+    box-shadow: 2px 2px 5px rgb(91, 79, 79);
     transition: transform 0.2s ease-in-out;
     animation: slideIn 0.5s ease-in-out;
 }  
@@ -103,16 +106,20 @@ p {
 }
   
 .grid-item {
-    background-color: #f9f9f9;
+    background-color: #f1d7d7;
     padding: 1em;
     text-align: center;
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
 }
 #about {
-    color: rgb(51, 50, 50);
-    padding-top: 22%;
-    padding-bottom: -2%;
+    background-image: url(bg.png);
+    color: rgb(249, 249, 249);
+    padding-top: 2%;
+    background-repeat: no-repeat;
+    background-position-y: 99%;
+    background-position-x: center;
+    background-size: cover;
 }
 #about h1{
     padding-top: 1%;
@@ -124,14 +131,14 @@ p {
 }
 .grid-item1 p{
     font-size: 1.3em;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-emphasis: none;
     padding-right: 4.4em;
 }
 
 .grid-item:hover {
     transform: scale(1.1);
-    box-shadow: 2px 2px 5px #ccc;
+    box-shadow: 2px 2px 5px rgb(62, 56, 56);
 }
 .grid1 {
     display: grid;
@@ -139,31 +146,42 @@ p {
     grid-template-rows: repeat(4, 3fr);
     grid-gap: 1em;
 }
+.grid1 p{
+    text-align: center;
+}
 .grid-item1 img {
     width: 80%;
     border-radius: 50%;
-    border: 2px solid #ccc;
+    border: 2px solid rgb(73, 62, 62);
     object-fit: cover;
     filter: brightness(80%) contrast(120%) saturate(150%);
 }
-  
+ 
+#contact {
+    padding-top: 3%;
+    padding-right: 40%;
+}
+#contact .c1 {
+    text-align: left;
+    padding-left: 0%;
+    width: 140%;
+}
 form {
-    padding-top: 10%;
     max-width: 500px;
     margin: 0 auto;
-    padding: 10%;
-    background-color: #f9f9f9;
-    border-radius: 5px;
+    padding: 6%;
+    background-color: #ebebeb;
 }
+
 form label {
-    font-size: 1.2em;
-    color: #333;
+    font-size: 1.3em;
+    color: rgb(47, 32, 20);
+    font-weight: bolder;
   }
   
   form input,
   form textarea {
     font-size: 1.2em;
-    padding: 0.5em;
     margin-bottom: 1em;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -178,27 +196,18 @@ form label {
   }
   
   form button:hover {
-    background-color: #fff;
+    background-color: rgb(235, 16, 16);
     color: #333;
-    cursor: pointer;
-  }
-  form input:focus,
-  form textarea:focus {
-    border-color: #f7b733;
-    outline: none;
-  }
-  form .error-message {
-    font-size: 1.2em;
-    color: red;
-    margin-top: 1em;
-  }
-  form .success-message {
-    font-size: 1.2em;
-    color: green;
-    margin-top: 1em;
-  }
-          
-  
+}
+.formtext {
+    position: absolute;
+    left: 60%;
+    padding-top: 5%;
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: center;
+}
+
 footer {
     background-color: #333;
     color: #fff;
