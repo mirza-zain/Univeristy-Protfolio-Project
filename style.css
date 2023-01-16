@@ -1,6 +1,6 @@
 body {
     background-image: url('bgg.png');
-    background-size: 100%;
+    background-size: 99%;
     background-repeat: no-repeat;
     background-color: #FECD7D;
 } 
@@ -73,17 +73,17 @@ p {
     font-weight: 300;
     line-height: 1.5;
 }
-#portfolio h1{
+#project h1{
     color: #2b2424;
     padding-top: 18%;
     padding-bottom: 5%;
     text-align: center;
 } 
-#portfolio {
+#project {
     background-size: contain;
     background-position-y: -13.6%;
 }
-#portfolio img {
+#project img {
     width: 100%;
     padding: 3em;
     box-shadow: 2px 2px 5px rgb(91, 79, 79);
@@ -117,23 +117,28 @@ p {
     color: rgb(249, 249, 249);
     padding-top: 2%;
     background-repeat: no-repeat;
-    background-position-y: 99%;
+    background-position-y: 100%;
     background-position-x: center;
     background-size: cover;
 }
 #about h1{
     padding-top: 1%;
     padding-bottom: 0%;
+    padding-left: 3.4%;
 }  
 #about p{
-    padding-top: 2%;
-    padding-left: 0%;
+    color: rgb(244, 244, 244);
+    font-weight: bolder;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 80%;
+    text-align: center;
 }
 .grid-item1 p{
     font-size: 1.3em;
-    color: rgb(255, 255, 255);
-    text-emphasis: none;
-    padding-right: 4.4em;
+    font-weight: bolder;
+    padding: 0%;
 }
 
 .grid-item:hover {
@@ -161,10 +166,14 @@ p {
     padding-top: 3%;
     padding-right: 40%;
 }
+#contact h1 {
+    padding-left: 3.4%;
+}
 #contact .c1 {
     text-align: left;
-    padding-left: 0%;
+    padding-left: 2%;
     width: 140%;
+    text-align: center;
 }
 form {
     max-width: 500px;
@@ -213,4 +222,51 @@ footer {
     color: #fff;
     padding: 1em;
     text-align: center;
+}
+footer h3 {
+    font-size: 28px;
+    color: white;
+    padding-top: 2%;
+}     
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 20%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.fa-instagram {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #c13584, #E1306C, #FD1D1D); 
+    color: white;
+}
+.fa:hover {
+    background: white;
+    color: #333;
+}
+
+.fa-github {
+    background: rgb(14, 13, 13);
+    color: white;
 }      
